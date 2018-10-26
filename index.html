@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <input type="text" id= "numeroTelefono" placeholder="Numero"/>
+    <input type="text" id="nombreContacto" placeholder="Nombre contacto"/>
+    <input type="button" value="Guardar" onclick="saveContac()"/>
+    <br>
+    <input type="text" id="nombreContactoBuscar" placeholder="Nombre a buscar"/>
+    <input type="button" value="Buscar" onclick="buscarContacto()"/>
+    <input type="button" value="Ver todo" onclick="verTodo();"/>
+
+    <table id="contactList">
+            <tr>
+                <th>Numero</th>
+                <th>Nombre</th>
+                <th>Opciones</th>
+            </tr>
+    </table>
+    <script src="main.js" charset="utf-8"></script>
+
+</body>
+</html>
